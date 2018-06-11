@@ -1,0 +1,26 @@
+#updated_content{
+	background-color: #fdd8c4;
+    padding: 20px;
+}
+.update{
+	position: relative;
+	padding-bottom: 20px;
+}
+.update-header{
+	position: relative;
+}
+.update-title{
+	color: #004bf4;
+    margin-bottom: 20px;
+}
+.update-load-more {
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+}
+.update-load-more-btn {
+    width: calc(100% / 2);
+    padding: 10px;
+    background-color: #004bf4;
+    color: #f8f8f8;
+}

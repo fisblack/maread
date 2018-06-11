@@ -1,1 +1,75 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
+@import url(assets/font/font.css);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.css');
+
+body {
+    font-size: 18px;
+    font-family: "db_futhaira_head_xdemibd","apple-system,BlinkMacSystemFont","Helvetica Neue","tahoma";
+    color: #252525;
+    background-color: #f8f8f8;
+}
+a {
+    color: #004bf4;
+}
+a:hover {
+    color: #004bf4;
+    text-decoration: none;
+}
+.navbar-brand {
+    margin-right: 3rem;
+}
+.label-info {
+    background-color: #5bc0de;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+.bootstrap-tagsinput {
+    min-width: 100%;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(235, 235, 235);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    box-shadow: none;
+}
+.fr-box {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.fr-toolbar.fr-top {
+    /* background-color: #f3f3f3; */
+}
+.fr-element {
+    background-color: #f3f3f3 !important;
+}
+.fr-wrapper .fr-placeholder {
+    color: #71757d !important;
+    z-index: 2 !important;
+}
+.col-list {
+    width: calc(100% / 5);
+    margin-bottom: 20px;
+}
+.p-r {
+    padding-right: 20px;
+    border-right: 1px solid #eee;
+}
+.p-l {
+    padding-left: 20px;
+}
+.btn-list {
+    height: 54px;
+}
+.pink {
+    background-color: #fdd8c4;
+}
+.green{
+    background-color: #51e0ba;
+}
+.p-c-5 {
+    padding: 0 5px;
+}

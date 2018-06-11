@@ -1,0 +1,30 @@
+img {
+    -webkit-box-shadow: 5px 5px 46px -5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 5px 5px 46px -5px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 46px -5px rgba(0,0,0,0.5);
+}
+i {
+    margin-bottom: 10px;
+}
+.title {
+    color: #004bf4;
+}
+ul {
+    padding: 0;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+li {
+    list-style: none;
+    padding: 0 15px;
+    border-left: 1px solid #252525;
+}
+li i {
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+li:first-of-type {
+    padding-left: 0;
+    border: 0px;
+}

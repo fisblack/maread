@@ -1,0 +1,14 @@
+.navbar {
+    padding: 15px 0;
+}
+.navbar-add a {
+    color: #004bf4;
+    text-decoration: none; 
+}
+.navbar-add a i {
+    margin-right: 10px; 
+}
+.navbar-user i {
+    color: #004bf4;
+    font-size: 24px; 
+}

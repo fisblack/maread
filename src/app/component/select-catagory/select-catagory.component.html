@@ -1,0 +1,15 @@
+<div class="form-group form-select d-flex align-items-center">
+	<i class="fa fa-angle-down" aria-hidden="true"></i>
+	<select class="form-control" *ngIf="for=='category'">
+		<option value="" disabled selected>เลือกหมวดนิยาย</option>
+		<option *ngFor="let category of categories" value="{{ category.id }}">
+			{{category.name}}
+		</option>
+	</select>
+	<select class="form-control" *ngIf="for=='language'">
+		<option value="" disabled selected>เลือกภาษา</option>
+		<option *ngFor="let language of languages" value="{{ language }}">
+			{{language}}
+		</option>
+	</select>
+</div>

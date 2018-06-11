@@ -1,0 +1,15 @@
+#bookmark {
+  background-color: #51e0ba;
+  padding: 20px 0;
+  margin: 20px 0; }
+.bookmark{
+	position: relative;
+}
+.bookmark-title{
+	margin-bottom: 20px;
+	color: #004bf4;
+}
+.bookmark-title span{
+	color: #fff;
+}
+

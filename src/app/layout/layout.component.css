@@ -1,0 +1,35 @@
+header {
+    background-color: #51e0ba;
+}
+footer {
+    padding-top: 100px;
+    padding-bottom: 20px; }
+.footer {
+    font-size: 14px;
+    color: #636363; 
+}
+.footer-logo {
+    margin-bottom: 20px; 
+}
+.footer-nav ul {
+    padding: 0;
+    margin-bottom: 10px; 
+}
+.footer-nav ul li {
+    color: #636363;
+    list-style: none;
+    border-right: 1px solid #636363;
+    padding: 0 25px; 
+}
+.footer-nav ul a:first-of-type li {
+    padding-left: 0; 
+}
+.footer-nav ul a:last-of-type li {
+    border: 0; 
+}
+.footer-contact-us {
+    margin-top: 30px; 
+}
+.footer-contact-us h6 {
+    font-size: 14px; 
+}

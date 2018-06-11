@@ -1,0 +1,23 @@
+.navigation {
+    background-color: #fdd8c4; 
+}
+.navigation-group ul {
+    padding-left: 0;
+    margin-bottom: 0; 
+}
+.navigation-group ul a {
+    text-decoration: none; 
+}
+.navigation-group ul a li {
+    list-style: none;
+    padding: 10px 60px 10px 0;
+    color: #252525;
+    transition: all 0.3s ease-in-out;
+    font-size: 20px; 
+}
+.navigation-group ul a.active li {
+    color: #004bf4;
+}
+.navigation-group ul a li:hover {
+    color: #004bf4; 
+}

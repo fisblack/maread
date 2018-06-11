@@ -1,0 +1,20 @@
+input {
+    display: none;
+}
+label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+label:hover {
+    cursor: pointer;
+}
+label i {
+    margin-right: 15px;
+    font-size: 20px;
+    color: #004bf4;
+}
+input:checked + label i::before{
+    content: "\f14a";
+}

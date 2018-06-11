@@ -1,0 +1,27 @@
+
+  /* line 273, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+
+    /* line 278, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+
+/* line 284, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+ .ranking-item-list {
+  background-color: #fff;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-bottom: 20px; }
+  /* line 289, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+  .ranking-item-list-detail {
+    padding: 10px 15px; }
+    /* line 294, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+  section#ranking .ranking-item-list-detail-description, section#ranking .ranking-item-list-detail-by, section#ranking section#update .update-item-list-detail-by, section#update section#ranking .update-item-list-detail-by {
+      color: #636363;
+      font-size: 14px; }
+
+/* line 305, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+ .col-12:nth-child(odd) .row {
+  margin-right: 5px; }
+
+  .no-padding{
+    padding: 0;
+  }
+

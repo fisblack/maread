@@ -1,0 +1,34 @@
+.navbar-seach {
+    width: 400px;
+    position: relative; 
+}
+.navbar-seach-form {
+    background-color: #58f1c8;
+    border: 0; 
+}
+.navbar-seach-form:focus {
+    background-color: #58f1c8;
+    outline: none;
+    border: 0;
+    box-shadow: none; 
+}
+.navbar-seach-form::placeholder {
+    color: #004bf4;
+    opacity: 1; 
+}
+.navbar-seach-form:-ms-input-placeholder {
+    color: #004bf4; 
+}
+.navbar-seach-form::-ms-input-placeholder {
+    color: #004bf4; 
+}
+.navbar-seach-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    height: 100%;
+    border: none;
+    padding: 0 10px;
+    color: #f8f8f8; 
+}

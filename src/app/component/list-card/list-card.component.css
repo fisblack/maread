@@ -1,0 +1,87 @@
+/* line 167, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+
+.bookmark {
+  position: relative;
+}
+
+
+/* line 169, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+
+.bookmark-title {
+  color: #004bf4;
+  margin-bottom: 20px;
+}
+
+
+/* line 172, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+
+.bookmark-title span {
+  color: #f8f8f8;
+}
+
+
+/* line 176, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+
+.bookmark-view-all {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  color: #004bf4;
+}
+
+
+/* line 179, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+
+.bookmark-card {
+  margin-bottom: 15px;
+}
+
+
+/* line 181, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+
+.bookmark-card-item {
+  padding: 0 10px;
+}
+
+
+/* line 183, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+
+.bookmark-card-item-img {
+  width: 100%;
+}
+
+
+/* line 186, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+
+.bookmark-card-item-detail {
+  background-color: #ffffff;
+  padding: 10px;
+  color: #636363;
+  font-size: 16px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
+/* line 193, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+
+.bookmark-card-item-detail-title {
+  color: #252525;
+  font-size: 18px;
+}
+
+
+/* line 197, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+
+.bookmark-card-item-detail i {
+  color: #ccc;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+/* .col {
+  width: calc(100% / 5) !important;
+  flex-basis: auto;
+  flex-grow: unset;
+  margin-bottom: 20px;
+} */

@@ -1,0 +1,31 @@
+ul {
+    margin: 10px;
+    margin-left: 0;
+    padding: 10px 10px;
+    padding-left: 0;
+    font-size: 18px;
+    color: #004bf4; 
+}
+ul i {
+      color: #51e0ba;
+      margin-right: 5px;
+      font-size: 20px; 
+}
+ul a {
+      text-decoration: none; 
+}
+ul a li {
+        padding: 0px 10px;
+        list-style: none;
+        color: #bfbfbf;
+        margin: 0 3px;
+        border: 1px solid #bfbfbf;
+        border-radius: 5px;
+        font-size: 14px; 
+}
+ul a li.active {
+        color: #004bf4; 
+}
+ul a:first-of-type li {
+        margin-left: 10px; 
+}

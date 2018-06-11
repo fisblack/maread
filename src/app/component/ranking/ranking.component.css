@@ -1,0 +1,57 @@
+
+#ranking .ranking {
+  position: relative; }
+  /* line 210, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+  section#ranking .ranking-title {
+    margin-bottom: 20px;
+    color: #004bf4; }
+  /* line 214, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+
+/* line 218, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+section#ranking .ranking-type {
+  background-color: #51e0ba; }
+  /* line 222, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+  section#ranking .ranking-type-input:checked + label {
+    background-color: #004bf4;
+    color: #f8f8f8; }
+  /* line 228, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+  section#ranking .ranking-type-item {
+    color: #004bf4;
+    line-height: 3;
+    border-right: 1px solid #004bf4;
+    margin-bottom: 0;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out; }
+    /* line 235, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+    section#ranking .ranking-type-item i {
+      margin-right: 10px; }
+    /* line 238, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+    section#ranking .ranking-type-item-category {
+      background-color: transparent;
+      height: 100%;
+      border: 0;
+      color: #f8f8f8; }
+      /* line 243, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+      section#ranking .ranking-type-item-category:focus {
+        background-color: #004bf4;
+        outline: none;
+        border: 0;
+        box-shadow: none; }
+    /* line 250, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+    section#ranking .ranking-type-item:hover {
+      cursor: pointer; }
+    /* line 253, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+    section#ranking .ranking-type-item:first-of-type {
+      border-left: 1px solid #004bf4; }
+  /* line 257, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+  section#ranking .ranking-type-item.active {
+    background-color: #004bf4;
+    color: #f8f8f8; }
+
+/* line 262, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+section#ranking .ranking-type-list {
+  background-color: #fdd8c4;
+  padding-bottom: 20px; }
+  /* line 267, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
+
+

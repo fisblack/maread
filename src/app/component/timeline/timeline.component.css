@@ -1,0 +1,10 @@
+.ranking-type-list-input:checked + label {
+    color: #004bf4;
+    border-bottom: 2px solid #004bf4; }
+    .ranking-type-list-item:hover {
+  cursor: pointer; }
+    .ranking-type-list-item {
+    line-height: 3;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid transparent; }

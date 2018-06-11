@@ -1,0 +1,14 @@
+
+#news{
+  background-color: #51e0ba;
+  padding: 20px; 
+}
+
+.new-title{
+	color: #004bf4;
+    margin-bottom: 20px;
+}
+
+.new-header{
+	position: relative;
+}
