@@ -4,6 +4,7 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
 @import url(assets/font/font.css);
 @import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.css');
+@import './assets/css/chosen.css';
 
 body {
     font-size: 18px;
@@ -72,4 +73,44 @@ a:hover {
 }
 .p-c-5 {
     padding: 0 5px;
+}
+
+/* chosen custom */
+.chosen-container-single .chosen-single {
+    vertical-align: middle;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    color: #252525;
+    font-size: 16px;
+    height: auto;
+    line-height: 1.8;
+    padding: 0 0 0 15px;
+}
+.chosen-container-active.chosen-with-drop .chosen-single {
+    background-image: none;
+    border: 0;
+    box-shadow: none;
+}
+.chosen-container .chosen-results li.highlighted {
+    background: #58f1c8;
+    color:#004bf4;
+}
+.chosen-container .chosen-drop {
+    border: 0;
+    background-color: #50e0bb;
+}
+.chosen-container .chosen-results li {
+    margin: 0;
+    padding: 10px 6px;
+    list-style: none;
+    line-height: 20px;
+}
+.chosen-container-single .chosen-single div {
+    display: flex;
+    align-items: center;
+}
+.chosen-focus-input {
+    display: none;
 }

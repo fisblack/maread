@@ -1,4 +1,4 @@
-<section class="pink" >
+<section class="pink">
 	<div class="container">
 		<app-book-detail></app-book-detail>
 	</div>
@@ -9,24 +9,24 @@
 			<div class="col-2 p-c-5">
 				<a routerLink="/read-book">
 					<app-button-icon 
-						[configs]="{text: 'เริ่มอ่านนิยาย',color: 'blue'}" >
+						[configs]="{text: 'แก้ไขหนังสือ',color: 'blue'}" >
 					</app-button-icon>
 				</a>
 			</div>
 			<div class="col-2 p-c-5">
 				<app-button-icon 
-					[configs]="{text: 'เก็บเข้าชั้นหนังสือ',color: 'green', icon: 'bookmark'}" >
+					[configs]="{text: 'แชร์ไว้อ่าน',color: 'green', icon: 'share-alt'}" >
 				</app-button-icon>
 			</div>
 			<div class="col-2 p-c-5">
 				<app-button-icon 
-					[configs]="{text: 'เริ่มอ่านนิยาย',color: 'green', icon: 'share-alt'}" >
+					[configs]="{text: 'ลบหนังสือ',color: 'green', icon: 'trash'}" >
 				</app-button-icon>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="pink">
+<section>
 	<div class="container">
 		<p>
 				มุรากามิ ยูสึเกะเด็กหนุ่มผู้มีปมในใจ ถูกส่งไปยังต่างโลก แถมได้โปรโมชั่นกลายเป็นเทพ จะเกิดอะไรขึ้น เมื่อเด็กหนุ่ม 
@@ -34,21 +34,10 @@
 				ยูสึเกะที่ใช้ชีวิตร่วมกันกับมนุษย์เดินดิน กับความชิวของเหล่าทวยเทพและจอมมาร ตามคำจำกัดความสั้นๆ ตามนิยาย
 				เกิดใหม่ต่างโลก สูตรโกง พระเอกเก่ง และ ฮาเร็ม
 		</p>
-		<app-button text="อ่านเนื้อหาต่อทั้งหมด" ></app-button>
 	</div>
 </section>
 <section>
 	<div class="container">
-		<app-review></app-review>
-	</div>
-</section>
-<section class="green">
-	<div class="container">
-		<app-chapter></app-chapter>
-	</div>
-</section>
-<section class="pink">
-	<div class="container">
-		<app-related></app-related>
+		<app-chapter chapter="true"></app-chapter>
 	</div>
 </section>

@@ -26,6 +26,7 @@
       ],
       "scripts": [
         "assets/js/main.js",
+        "assets/js/chosen.js",
         "../node_modules/froala-editor/js/froala_editor.pkgd.min.js"
       ],
       "environmentSource": "environments/environment.ts",

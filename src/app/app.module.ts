@@ -37,6 +37,14 @@ import { BookDetailComponent } from './component/book-detail/book-detail.compone
 import { TagItemComponent } from './component/tag-item/tag-item.component';
 import { ButtonIconComponent } from './component/button-icon/button-icon.component';
 import { ReviewComponent } from './component/review/review.component';
+import { ChapterComponent } from './component/chapter/chapter.component';
+import { RelatedComponent } from './component/related/related.component';
+import { ReadBookComponent } from './page/read-book/read-book.component';
+import { ParagraphComponent } from './component/paragraph/paragraph.component';
+import { ChosenDirective } from './chosen.directive';
+import { CommentComponent } from './component/comment/comment.component';
+import { MakeNovelComponent } from './page/make-novel/make-novel.component';
+import { LoginComponent } from './page/login/login.component';
 
 
 const appRoutes: Routes = [
@@ -50,6 +58,9 @@ const appRoutes: Routes = [
   { path: 'add-novel', component: AddNovelComponent},
   { path: 'popular', component: PopularComponent},
   { path: 'detail-book', component: DetailBookComponent},
+  { path: 'read-book', component: ReadBookComponent},
+  { path: 'make-novel', component: MakeNovelComponent},
+  { path: 'login', component: LoginComponent},
 ];
 
 @NgModule({
@@ -87,6 +98,14 @@ const appRoutes: Routes = [
     TagItemComponent,
     ButtonIconComponent,
     ReviewComponent,
+    ChapterComponent,
+    RelatedComponent,
+    ReadBookComponent,
+    ParagraphComponent,
+    ChosenDirective,
+    CommentComponent,
+    MakeNovelComponent,
+    LoginComponent,
     
   ],
   imports: [

@@ -1,0 +1,28 @@
+h5, h6 {
+    color: #c5c5c5
+}
+hr {
+    width: 100%;
+}
+span {
+    color: #c5c5c5;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.review-list .row {
+    margin: 0 15px;
+    padding-top: 10px;
+    border-top: 1px solid rgb(240, 240, 240);
+}
+.review-list .row:first-of-type {
+    border: 0px;
+}
+.form-group {
+    margin-bottom: 0;
+}
+.form-control {
+    margin-bottom: 0px;
+    border: 0px;
+    background-color: #eeeeee;
+    padding: .75rem;
+}

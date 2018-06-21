@@ -1,0 +1,47 @@
+<section class="pink">
+
+</section>
+<section>
+	<div class="container">
+		<app-title 
+			text="ตอนที่ 1 : เลือกถูกหรือเปล่าน่ะ(1)"
+			[ngClass]="'text-center'" 
+		></app-title>
+		<app-paragraph 
+			content="{{content}}"
+		></app-paragraph>
+	</div>
+</section>
+<section class="green control-book mb-3">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-12 col-sm-3">
+				<select appChosen class="chosen-select" id="select">
+					<option value="" ><strong>ตอนที่ 1</strong> <br/> เลือกผิดหรือเปล่าน่ะ(1)</option>
+					<option value="" ><strong>ตอนที่ 2</strong> <br/> เลือกผิดหรือเปล่าน่ะ(1)</option>
+					<option value="" ><strong>ตอนที่ 3</strong> <br/> เลือกผิดหรือเปล่าน่ะ(1)</option>
+				</select>
+			</div>
+			<div class="col-12 col-sm-3 p-c-5">
+				<app-button-icon 
+					[configs]="{text: 'เก็บเข้าชั้นหนังสือ', color: 'green', icon: 'bookmark'}" >
+				</app-button-icon>
+			</div>
+			<div class="col-12 col-sm-3 p-c-5">
+				<app-button-icon 
+					[configs]="{text: 'เก็บไว้อ่าน', color: 'green', icon: 'share-alt'}" >
+				</app-button-icon>
+			</div>
+			<div class="col-12 col-sm-3 p-c-5">
+				<app-button-icon 
+					[configs]="{text: 'อ่านตอนถัดไป', color: 'blue'}" >
+				</app-button-icon>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<app-comment></app-comment>
+	</div>
+</section>

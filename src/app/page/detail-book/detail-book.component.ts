@@ -10,6 +10,7 @@ export class DetailBookComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
 
 }

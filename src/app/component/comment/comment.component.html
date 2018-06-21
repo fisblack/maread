@@ -1,11 +1,8 @@
 <div class="row">
 	<div class="col">
-		รีวิวโดยผู้อ่าน : <a href="http://">52 คน</a>
-	</div>
-	<div class="col-2">
-		<app-button-icon
-			[configs]="{text: 'เขียนรีวิว', color: 'blue', icon: 'pencil-square'}"
-		></app-button-icon>
+		<h5 class="p-3">
+      แสดงความคิดเห็น
+    </h5>
 	</div>
 </div>
 <hr>
@@ -15,37 +12,59 @@
 			<div class="col-2 text-center">
 				<img [src]="'assets/images/user.png'" alt="">
 			</div>
-			<div class="col">
-				<a href="http://">
-					<h4>Teenutchapon1</h4>
+			<div class="col mb-3">
+				<a href="http://" class="d-flex align-items-center">
+          <h4>Teenutchapon1</h4>
+          <h6 class="ml-3">32 วันที่แล้ว</h6>
 				</a>
 				<p>
 					เป็นอีกเรื่องที่แต่งได้ค่อนข้างดี ตอนอ่านแรกๆนึกว่านิยายแปลเสียด้วยซ้ำ ภาษาที่ใช้ก็อ่านง่าย มีมุขตลกบาง
 					ประปราย จินตนาการตามได้ทุกฉาก ผมชอบคับ พระเอกก็ไม่ใช่สัตว์กินพืช ฮาเร็มจัดเต็ม!!!!
-				</p>
-			</div>
-			<div class="col-2 text-center">
-				32 วันที่แล้ว
+        </p>
+        <a href="">
+          <i class="fa fa-reply-all" aria-hidden="true"></i>
+          <span> ตอบกลับความคิดเห็น </span>
+        </a>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row mb-3">
 			<div class="col-2 text-center">
 				<img [src]="'assets/images/user.png'" alt="">
 			</div>
 			<div class="col">
-				<a href="http://">
-					<h4>Teenutchapon1</h4>
+				<a href="http://" class="d-flex align-items-center">
+          <h4>Teenutchapon1</h4>
+          <h6 class="ml-3">32 วันที่แล้ว</h6>
 				</a>
 				<p>
 					เป็นอีกเรื่องที่แต่งได้ค่อนข้างดี ตอนอ่านแรกๆนึกว่านิยายแปลเสียด้วยซ้ำ ภาษาที่ใช้ก็อ่านง่าย มีมุขตลกบาง
 					ประปราย จินตนาการตามได้ทุกฉาก ผมชอบคับ พระเอกก็ไม่ใช่สัตว์กินพืช ฮาเร็มจัดเต็ม!!!!
-				</p>
-			</div>
-			<div class="col-2 text-center">
-				32 วันที่แล้ว
+        </p>
+        <a href="">
+          <i class="fa fa-reply-all" aria-hidden="true"></i>
+          <span> ตอบกลับความคิดเห็น </span>
+        </a>
 			</div>
 		</div>
 	</div>
 </div>
-<hr>
-<app-button text="อ่านรีวิวเพิ่มทั้งหมด" ></app-button>
+<div class="row">
+  <div class="col-12 review-list">
+    <div class="row align-items-center">
+      <div class="col-2 text-center">
+        <img [src]="'assets/images/user.png'" alt="">
+      </div>
+      <div class="col">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="แสดงความคิดเห็นของคุณที่นี้">
+        </div>
+      </div>
+      <div class="col-2 p-c-5">
+        <app-button-icon 
+          [configs]="{text: 'ยื่นยัน', color: 'blue'}" >
+        </app-button-icon>
+      </div>
+    </div>
+  </div>
+</div>
+

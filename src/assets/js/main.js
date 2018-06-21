@@ -26,12 +26,23 @@ $(document).ready(function() {
         owl()
     })
 
+    $(window).on('hashchange', function(e){
+        alert(555)
+    });
     
 
     $('a').click(function() {
         pageLoad(window.location.pathname)
+        owl()
     })
-    
+    // setInterval(function() {
+    //     $('#select').chosen({disable_search_threshold: 10})
+    // },10)
+    $('#select').change(function() {
+        const text = $('#select option:selected').html()
+        $('.chosen-single span').html(text)
+        console.log(text)
+    });
     pageLoad(window.location.pathname)
 })
 
@@ -46,6 +57,10 @@ function pageLoad(path) {
             break
         case '/detail-book' :
             $('.navigation').hide()
+            break
+        case '/read-book' :
+            $('.navigation').hide()
+            $('#select').chosen({disable_search_threshold: 10})
             break
         default :
 

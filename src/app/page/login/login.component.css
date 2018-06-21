@@ -1,0 +1,42 @@
+section, .row {
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+    min-height: 100vh;
+}
+form {
+    position: relative;
+    padding: 40px 30px 20px;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 20px;
+}
+.title {
+    color: #969897;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+.form-group i {
+    position: absolute;
+    left: 15px;
+    font-size: 24px;
+    color: #868686;
+}
+.form-control {
+    font-size: 18px;
+    padding: 0.775rem .75rem;
+    padding-left: calc(15px + 40px);
+    background-color: #fefefe;
+    border: 0px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(000, 000, 000, .3);
+    opacity: 1; /* Firefox */
+}
+.btn-custom {
+    width: 100%;
+    font-size: 20px;
+    padding: 0.475rem .75rem;
+    border-radius: 100px;
+    background-color: #388da9;
+    color: #f8f8f8;
+}

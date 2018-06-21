@@ -1,3 +1,11 @@
 hr {
     width: 100%;
 }
+.review-list .row {
+    margin: 0 15px;
+    padding-top: 10px;
+    border-top: 1px solid rgb(240, 240, 240);
+}
+.review-list .row:first-of-type {
+    border: 0px;
+}
