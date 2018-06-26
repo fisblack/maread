@@ -12,3 +12,70 @@
     color: #004bf4;
     font-size: 24px; 
 }
+.modal-body {
+    padding-top: 0;
+}
+.none-pad {
+    padding: 0;
+}
+.list-group-item {
+    border: 0px;
+    border-radius: 0;
+}
+.list-group-item.active {
+    background-color: #51e0ba;
+    border-color: #51e0ba;
+}
+.list-group-item-action {
+    width: 50%;
+}
+form {
+    position: relative;
+    padding: 40px 30px 20px;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 20px;
+}
+.title {
+    color: #969897;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+.form-group i {
+    position: absolute;
+    left: 15px;
+    font-size: 24px;
+    color: #868686;
+}
+.form-control {
+    font-size: 18px;
+    padding: 0.775rem .75rem;
+    padding-left: calc(15px + 40px);
+    padding-right: calc(15px + 40px);
+    background-color: #fefefe;
+    border-radius: 100px;
+}
+select.form-control {
+    height: 53px !important;
+    -webkit-appearance: none;
+}
+select.birthday-select {
+    padding-left: 15px;
+}
+i.fa-angle-down {
+    left: unset !important;
+    right: 15px !important;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(000, 000, 000, .3);
+    opacity: 1; /* Firefox */
+}
+.btn-custom {
+    width: 100%;
+    font-size: 20px;
+    padding: 0.475rem .75rem;
+    border-radius: 100px;
+    background-color: #388da9;
+    color: #f8f8f8;
+}

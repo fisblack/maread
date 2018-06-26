@@ -1,4 +1,4 @@
-import { Directive, ElementRef } from '@angular/core';
+import { Directive, ElementRef, OnInit, OnDestroy } from '@angular/core';
 // import * as $ from 'jquery'
 declare var $: any
 @Directive({
@@ -6,9 +6,13 @@ declare var $: any
 })
 export class ChosenDirective {
 
-  constructor(el: ElementRef) { 
+  constructor(private el: ElementRef) { 
     // $(el.nativeElement).chosen({disable_search_threshold: 10});
     
   }
-    
+
+  ngOnInit (): void  {
+    $(this.el.nativeElement).chosen({disable_search_threshold: 10});
+  }
+  
 }
