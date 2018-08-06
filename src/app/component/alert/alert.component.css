@@ -1,0 +1,26 @@
+.alert-group {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+.alert-group-box {
+    border-radius: 5px;
+}
+.title {
+    background-color:  #32603e;
+    color: white;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 10px 20px;
+}
+.content {
+    padding: 20px;
+    background-color: #60c27b;
+    color: white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}

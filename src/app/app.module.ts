@@ -45,6 +45,8 @@ import { ChosenDirective } from './chosen.directive';
 import { CommentComponent } from './component/comment/comment.component';
 import { MakeNovelComponent } from './page/make-novel/make-novel.component';
 import { LoginComponent } from './page/login/login.component';
+import { ProfileComponent } from './page/profile/profile.component';
+import { AlertComponent } from './component/alert/alert.component';
 
 
 const appRoutes: Routes = [
@@ -61,6 +63,7 @@ const appRoutes: Routes = [
   { path: 'read-book', component: ReadBookComponent},
   { path: 'make-novel', component: MakeNovelComponent},
   { path: 'login', component: LoginComponent},
+  { path: 'profile', component: ProfileComponent},
 ];
 
 @NgModule({
@@ -106,7 +109,8 @@ const appRoutes: Routes = [
     CommentComponent,
     MakeNovelComponent,
     LoginComponent,
-    
+    ProfileComponent,
+    AlertComponent,
   ],
   imports: [
     BrowserModule,
