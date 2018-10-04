@@ -1,22 +1,24 @@
 $(document).ready(function() {
     function owl() {
         $('.banner-slide').owlCarousel({
-            stagePadding: 300,
             loop:true,
             autoplay:true,
             autoplayTimeout:3000,
             autoplayHoverPause:true,
             smartSpeed:1000,
-            margin:20,
             responsive:{
                 0:{
-                    items:1
+                    items:1,
+                    stagePadding: 0,
+                    margin: 10
                 },
                 600:{
                     items:1
                 },
                 1000:{
-                    items:1
+                    items:1,
+                    stagePadding: 300,
+                    margin:20
                 }
             }
         })
@@ -32,6 +34,8 @@ $(document).ready(function() {
     
 
     $('a').click(function() {
+        $('body').removeClass('modal-open');
+        $('.navigation').removeClass('active');
         pageLoad(window.location.pathname)
         owl()
     })
@@ -44,6 +48,11 @@ $(document).ready(function() {
         console.log(text)
     });
     pageLoad(window.location.pathname)
+
+    $('.menu-mobile').click( () => {
+        $('body').toggleClass('modal-open');
+        $('.navigation').toggleClass('active');
+    })
 })
 
 function pageLoad(path) {
@@ -56,10 +65,10 @@ function pageLoad(path) {
             
             break
         case '/detail-book' :
-            $('.navigation').hide()
+            // $('.navigation').hide()
             break
         case '/read-book' :
-            $('.navigation').hide()
+            // $('.navigation').hide()
             $('#select').chosen({disable_search_threshold: 10})
             break
         default :

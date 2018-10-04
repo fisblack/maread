@@ -114,3 +114,25 @@ a:hover {
 .chosen-focus-input {
     display: none;
 }
+@media only screen and (max-width: 576px) {
+    .navbar-seach {
+        width: 100%;
+    }
+    .col-list {
+        width: calc(100% / 2);
+        margin-bottom: 20px;
+    }
+    .m-xs-b-2 {
+        margin-bottom: 5px;
+    }
+}
+@media only screen and (min-width: 577px) {
+    .col-md-auto {
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%;
+    }    
+}

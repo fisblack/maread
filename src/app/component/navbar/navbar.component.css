@@ -79,3 +79,14 @@ i.fa-angle-down {
     background-color: #388da9;
     color: #f8f8f8;
 }
+
+@media only screen and (max-width: 576px) {
+    .navbar .text-left {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .navbar-add {
+        margin: 15px 0;
+        /* text-align: left !important; */
+    }
+}

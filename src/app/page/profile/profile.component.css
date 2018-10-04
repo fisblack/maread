@@ -18,3 +18,23 @@
     color: rgb(51, 51, 51);
     height: 44px !important;
 }
+
+@media only screen and (max-width: 576px) {
+    .sidebar .list-group {
+        display: flex;
+        flex-direction: row;
+    }
+    .sidebar .list-group .list-group-item {
+        width: calc(100% / 2);
+    }
+    .py-5 {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+    .img-profile {
+        max-width: 50%;
+    }
+    .p-sm-none {
+        padding: 0 !important;
+    }
+}

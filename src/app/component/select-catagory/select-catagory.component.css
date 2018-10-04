@@ -22,3 +22,9 @@ i {
     background-color: #004bf4;
     color: #f8f8f8;
 }
+
+@media only screen and (max-width: 576px) {
+    select {
+        margin-bottom: 10px;
+    }
+}

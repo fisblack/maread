@@ -6,9 +6,15 @@
 
 .new-title{
 	color: #004bf4;
-    margin-bottom: 20px;
+    margin-bottom: 20px 0;
 }
 
 .new-header{
 	position: relative;
+}
+
+@media only screen and (max-width: 576px) {
+  #news {
+    padding: 20px 0;
+  }
 }

@@ -1,15 +1,15 @@
 <div class="container">
 	<div class="row align-items-center">
-		<div class="col-5">
+		<div class="col-12 col-md-5">
 			<app-title text="นิยายยอดนิยม"></app-title>
 		</div>
-		<div class="col">
+		<div class="col-6 col-md-auto">
 			<app-select-category for='category' ></app-select-category>
 		</div>
-		<div class="col">
+		<div class="col-6 col-md-auto">
 			<app-select-category for='language' ></app-select-category>
 		</div>
-		<div class="col-1 d-flex align-items-center btn-list">
+		<div class="col-1 d-none d-md-flex align-items-center btn-list">
 			<app-view-list type="large" [ngClass]="'p-r'" (click)="view('list')" ></app-view-list>
 			<app-view-list type="list" [ngClass]="'p-l'" (click)="view('large')"></app-view-list>
 		</div>

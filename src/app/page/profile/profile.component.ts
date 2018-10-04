@@ -15,6 +15,9 @@ export class ProfileComponent implements OnInit {
   alert: boolean = false
   showAlert() {
     this.alert = true
+    setTimeout(()=> {
+      this.alert = false
+    },3000)
   }
 
 }

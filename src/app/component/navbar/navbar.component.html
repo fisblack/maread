@@ -1,16 +1,19 @@
-<nav class="navbar row">
+<nav class="navbar row flex-column flex-md-row">
 	<div class="navbar-brand">
 		<app-logo></app-logo>
 	</div>
 	<div class="text-left">
 		<app-seach></app-seach>
 	</div>
-	<div class="navbar-add col text-right">
+	<div class="navbar-add d-flex d-md-block justify-content-between col text-right">
 		<a routerLink="add-novel">
 			<i class="fa fa-plus-circle" aria-hidden="true"></i> เขียนนิยาย
 		</a>
+		<div class="d-block d-md-none menu-mobile">
+			<i class="fa fa-bars" aria-hidden="true"></i>
+		</div>
 	</div>
-	<div class="navbar-user col-1">
+	<div class="navbar-user col-1 d-none d-md-block">
 		<a href="#" data-toggle="modal" data-target="#login-register">
 			<i class="fa fa-user-circle" aria-hidden="true"></i>
 		</a>

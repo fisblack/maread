@@ -21,3 +21,16 @@
 .navigation-group ul a li:hover {
     color: #004bf4; 
 }
+
+@media only screen and (max-width: 576px) {
+    .navigation {
+        height: 0px;
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+        z-index: 10;
+    }
+    .navigation.active {
+        height: 100vh;
+    }
+}

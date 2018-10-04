@@ -9,3 +9,9 @@ hr {
 .review-list .row:first-of-type {
     border: 0px;
 }
+
+@media only screen and (max-width: 576px) {
+    .review-list .row {
+        margin: -15px 15px;
+    }
+}

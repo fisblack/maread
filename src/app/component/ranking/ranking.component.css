@@ -54,4 +54,12 @@ section#ranking .ranking-type-list {
   padding-bottom: 20px; }
   /* line 267, /Users/abdulhafisasae/Desktop/MAREAD/assets/scss/main.scss */
 
+@media only screen and (max-width: 576px) {
+  section#ranking .ranking-type-item.active {
+    margin-top: 5px; 
+  }
+  .ranking-type-item-category {
+    padding: 15px 0;
+  }
+}
 
